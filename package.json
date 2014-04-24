@@ -1,0 +1,55 @@
+{
+    "name": "zizhu",
+    "version": "0.9.1",
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-contrib-uglify": "~0.2.7",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-connect": "~0.5.0",
+        "grunt-contrib-sass": "~0.5.0",
+        "grunt-contrib-coffee": "~0.7.0",
+        "grunt-contrib-jade": "~0.8.0",
+        "load-grunt-tasks": "~0.2.0",
+        "time-grunt": "~0.2.2",
+        "matchdep": "*",
+        "grunt-spritesmith": "~1.22.0",
+        "grunt-contrib-less": "~0.9.0",
+        "grunt-contrib-compass": "~0.7.2",
+        "grunt-contrib-handlebars": "~0.7.0",
+        "grunt-contrib-stylus": "~0.14.0"
+    },
+    "current": "YY",
+    "projects": {
+        "maimai": {
+            "dev": "./maimai/dev2.0/",
+            "release": "./maimai/release/",
+            "sass": "maimai.scss",
+            "css": "site.scss|maimai.scss|bns-ui.scss"
+        },
+        "uz": {
+            "dev": "./uz/dev/",
+            "release": "./uz/release/"
+        },
+        "u2-new": {
+            "dev": "./u2-new/dev3.0/",
+            "release": "./u2-new/dev3.0/release/"
+        },
+        "dpl": {
+            "dev": "./dpl/dev/",
+            "release": "./dpl/release/"
+        },
+        "mydpl": {
+            "dev": "./mydpl/dev/",
+            "release": "./mydpl/release/"
+        },
+        "demo": {
+            "dev": "./demo/dev/",
+            "release": "./demo/release/"
+        },
+        "YY": {
+            "dev": "./YY/dev/",
+            "release": "./YY/dev/release/"
+        }
+    }
+}
